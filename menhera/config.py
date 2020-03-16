@@ -10,9 +10,9 @@ class Config(object):
     LOGGER = True
 
     # REQUIRED
-    API_KEY = ""
-    OWNER_ID = "686021814"  # If you dont know, run the bot and do /id in your private chat with it
-    OWNER_USERNAME = "TheDarkW3b"
+    API_KEY = "1100222683:AAF3ve_xBNbbCXYYD2rzw11H1M5NUVqkW6k"
+    OWNER_ID = "705138975"  # If you dont know, run the bot and do /id in your private chat with it
+    OWNER_USERNAME = "@Google_Console"
 
     # RECOMMENDED
     SQLALCHEMY_DATABASE_URI = ''  # needed for any database modules
@@ -23,9 +23,9 @@ class Config(object):
     URL = "https://{app name}.herokuapp.com/"
 
     # OPTIONAL
-    SUDO_USERS = []  # List of id's (not usernames) for users which have sudo access to the bot.
-    SUPPORT_USERS = []  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
-    WHITELIST_USERS = []  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
+    SUDO_USERS = [705138975,745518387]  # List of id's (not usernames) for users which have sudo access to the bot.
+    SUPPORT_USERS = [745518387]  # List of id's (not usernames) for users which are allowed to gban, but can also be banned.
+    WHITELIST_USERS = [745518387]  # List of id's (not usernames) for users which WONT be banned/kicked by the bot.
     MAPS_API = ''
     CERT_PATH = None
     PORT = 5000
